@@ -1,3 +1,3 @@
-# angular-uyujrj
+# Top View Bike Rentals
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-uyujrj)
+Bike Rental Application Built using Angular8 & Node JS
