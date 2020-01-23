@@ -8,3 +8,6 @@ Once all selections are done the user can check out
 If the the cart has only Accessories the user will be promted to add a bike before a purchase can be made.
 
 Select a Bike or Accessory -> Add to Cart -> Enter Personal Info & Purchase.
+
+To Deploy run node js
+enter command ng serve 
