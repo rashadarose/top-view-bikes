@@ -1,0 +1,30 @@
+<div><img class="jumboImg" src="../assets/bicy2.jpg"></div>
+
+<div class="product-header">Bike Rentals</div>
+<div class="product-listing" *ngFor="let product of products; index as productId ">
+
+  <!--<h3>
+    <a [title]="'Click to Buy! ' + product.name + ' details'" [routerLink]="['/products', productId]">
+      {{ product.name }}
+    </a>
+  </h3>-->
+
+  <h3>
+    <a [title]="'Click to Buy! '" [routerLink]="['/products', productId]">
+      {{ product.name }}
+    </a>
+  </h3>
+
+
+
+<!--<input type="URL" name="myURL" [(ngModel)]="myURL" placeholder="{{product.image}}" (change)="onURLinserted() ">
+
+<img [src]="imageToShow" alt="Place image title">-->
+
+  <p *ngIf="product.price">
+    Price: {{ product.price | currency}}
+  </p>
+
+
+
+</div>

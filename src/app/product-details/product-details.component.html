@@ -1,0 +1,16 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price | currency }}</h4>
+  <h4>Product Type: {{product.product_type}}</h4>
+
+  <div class="imgUrl" ><img class='imgurlInner' [src]="product.image" />
+  </div>
+  <!--<p>{{ product.description }}</p>-->
+<button (click)="addToCart(product)">Buy</button>
+<a class="backButton"  [routerLink]="['/']">
+      <button>Home</button>
+    </a>
+<!---->
+</div>
