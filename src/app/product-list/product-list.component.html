@@ -1,10 +1,9 @@
-<div><img class="jumboImg" src="../assets/bicy2.jpg"></div>
+<!--<div><img class="jumboImg" src="../assets/bicy2.jpg"></div>-->
 
 <div class="product-header">Bike Rentals</div>
 <div class="product-listing" *ngFor="let product of products; index as productId ">
 
-
-  <h3>
+ <h3>
     <a [title]="'Click to Buy! '" [routerLink]="['/products', productId]">
       {{ product.name }}
     </a>
